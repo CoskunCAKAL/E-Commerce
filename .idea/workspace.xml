@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b7b771a-5f9d-403e-aab5-c1fdaca7f280" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haratres/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haratres/dto/ProductWithStockDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haratres/entity/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haratres/repository/StockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haratres/service/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haratres/service/impl/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/admin-panel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/product-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/stock/stock-ekle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haratres/controller/WhislistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haratres/controller/WhislistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haratres/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haratres/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haratres/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haratres/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haratres/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haratres/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/product-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/product-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/product-list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LXYBsGAJeN17oldA2i27VFcMY2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/haratres/Desktop/yazlab&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;082e0f35cddb7d71797a3e20d59f3ff9&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\haratres\Desktop\Elec-Commerce\src\main\resources\templates" />
+      <recent name="C:\Users\haratres\Desktop\Elec-Commerce\src\main\resources\public" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.haratres" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ElecCommerceApplication">
+    <configuration name="admin-panel.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Elec-Commerce.iml/templates/admin/admin-panel.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Elec-Commerce/public/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Elec-Commerce.iml/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="stock-ekle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Elec-Commerce.iml/templates/stock/stock-ekle.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ElecCommerceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Elec-Commerce" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haratres.ElecCommerceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat: Elec-Commerce" type="com.poratu.idea.plugins.tomcat" temporary="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/Elec-Commerce" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.71" />
+          <option name="path" value="$PROJECT_DIR$/../../../../apache-tomcat-9.0.71" />
+          <option name="version" value="9.0.71.0" />
+        </TomcatInfo>
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.admin-panel.html" />
+        <item itemvalue="JavaScript Debug.stock-ekle.html" />
+        <item itemvalue="Smart Tomcat.Tomcat: Elec-Commerce" />
+        <item itemvalue="JavaScript Debug.home.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b7b771a-5f9d-403e-aab5-c1fdaca7f280" name="Changes" comment="" />
+      <created>1676018770154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676018770154</updated>
+      <workItem from="1676018771744" duration="819000" />
+      <workItem from="1676030261281" duration="3007000" />
+      <workItem from="1676034396658" duration="127000" />
+      <workItem from="1676035012440" duration="268000" />
+      <workItem from="1676035358937" duration="444000" />
+      <workItem from="1676036129468" duration="3616000" />
+      <workItem from="1676046076473" duration="1326000" />
+      <workItem from="1676111967362" duration="4122000" />
+      <workItem from="1676221348548" duration="2762000" />
+      <workItem from="1676271413668" duration="1247000" />
+      <workItem from="1676274366629" duration="20584000" />
+      <workItem from="1676360083086" duration="22642000" />
+      <workItem from="1676443740763" duration="24533000" />
+      <workItem from="1676530094101" duration="23733000" />
+      <workItem from="1676617426896" duration="15576000" />
+      <workItem from="1676644532453" duration="197000" />
+      <workItem from="1678445427088" duration="16123000" />
+      <workItem from="1678691457983" duration="9273000" />
+      <workItem from="1678709521107" duration="6334000" />
+      <workItem from="1678730295711" duration="1467000" />
+      <workItem from="1678779795495" duration="17416000" />
+      <workItem from="1678864039351" duration="19365000" />
+      <workItem from="1678951345062" duration="16410000" />
+      <workItem from="1679036533105" duration="2497000" />
+      <workItem from="1679041229248" duration="14032000" />
+      <workItem from="1679296036622" duration="4397000" />
+      <workItem from="1679300694069" duration="16900000" />
+      <workItem from="1679383157488" duration="18266000" />
+      <workItem from="1679467993629" duration="2531000" />
+      <workItem from="1679471555452" duration="11183000" />
+      <workItem from="1679553978794" duration="16000" />
+      <workItem from="1679577353162" duration="2670000" />
+      <workItem from="1679640736663" duration="19807000" />
+      <workItem from="1679899664406" duration="18912000" />
+      <workItem from="1680009279547" duration="515000" />
+      <workItem from="1680087717858" duration="238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="java-exception">
+          <properties>
+            <option name="NOTIFY_UNCAUGHT" value="false" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.haratres.entity.Whislist" memberName="name" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

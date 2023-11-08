@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<title th:text="${product.title}"></title>
+</head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+<!--<div class="container">-->
+<!--    <span th:text="${product.title}"/>-->
+<!--    <span th:text="${product.price}"/>-->
+<!--    <span th:text="${product.memory}"/>-->
+
+<!--</div>-->
+<div class="container mt-5 mb-5">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-10">
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="images p-3">
+                            <div class="text-center p-4">
+                                <img class="card-img-top" th:src="${product.baseImage}" width="250" /> </div>
+                            <div class="thumbnail text-center"> <img onclick="change_image(this)" th:src="${product.baseImage}" width="70"> <img onclick="change_image(this)" th:src="${product.baseImage}" width="70"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="product p-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center"> <i class="fa fa-long-arrow-left"></i> <span class="ml-1">Back</span> </div> <i class="fa fa-shopping-cart text-muted"></i>
+                            </div>
+                            <div class="mt-4 mb-3">Title : <span class="card-title" th:text="${product.title}">  </span>
+                                 <h5 class="card-text" th:text="${product.description}">  </h5>
+                                <div class="price d-flex flex-row align-items-center"> <span class="act-price"></span>
+                                    <div class="ml-2">Price : <small class="dis-price" th:text="${product.totalprice}"> </small> <span></span> </div>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    Memory :
+                                    <p class="about"th:text="${product.memory}">  </p>
+                                </li>
+                                <li>
+                                    Storage:<p class="about"th:text="${product.storage}">  </p>
+                                </li>
+                                <li>
+                                    Cpu :
+                                    <p class="about"th:text="${product.cpuNumber}">  </p>
+                                </li>
+                                <li>
+                                    Gpu :
+                                    <p class="about"th:text="${product.gpuNumber}">  </p>
+                                </li>
+                            </ul>
+
+                            <div class="cart mt-4 align-items-center"> <button class="btn btn-primary text-uppercase mr-2 px-4">Sepete Ekle</button> <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:replace="fragments/footer :: footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>

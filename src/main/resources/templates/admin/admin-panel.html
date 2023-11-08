@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+</head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+<div style="width: 300px; height: 180px; position : absolute; left: 1200px; top: 150px;">
+
+</div>
+<table class="table" >
+    <thead>
+    <tr>
+
+        <th scope="col">Id</th>
+        <th scope="col">Title</th>
+        <th scope="col">Price</th>
+        <th scope="col">Product sil</th>
+        <th scope="col">Stock</th>
+        <th scope="col">Stock ekle </th>
+        <th scope="col">Stock sil</th>
+        <th scope="col"><a th:href="@{/admin-panel/save}">Product ekle</a></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr  th:each="dto: ${products}" >
+
+        <td th:text="*{dto.product.id}"></td>
+        <td th:text="*{dto.product.title}"></td>
+        <td th:text="*{dto.product.price}"></td>
+        <td><a th:href="@{/admin-panel/removeProduct/{id}(id = ${dto.product.id})}" class="card-link">Product sil </a> </td>
+        <td th:text="*{dto.availableStock}"></td>
+        <td><a th:href="@{/admin-panel/add/{id}(id = ${dto.product.id})}" class="card-link">Stock count arttır</a></td>
+        <td><a th:href="@{/admin-panel/remove/{id}(id = ${dto.product.id})}" class="card-link">Stock count azalt</a></td>
+        <!--        <div>-->
+<!--        <td th:each="stock: ${count}"></td>-->
+<!--        <td th:text="*{stock.id}"></td>-->
+<!--        </div>-->
+    </tr>
+    </tbody>
+</table>
+
+
+<div th:replace="fragments/footer :: footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>
